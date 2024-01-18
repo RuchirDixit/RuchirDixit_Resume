@@ -1,5 +1,6 @@
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
   }
 
   /** Body Header **/
@@ -51,11 +52,33 @@ header {
     height: 20px;
     width: 20px;
     margin-top: 10px;
-    padding: 12px;
+    padding: 15px;
     box-shadow: 0 0 5px rgba(230, 196, 196, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
 .socials a img:hover{
     transform: scale(1.1);
+}
+
+#about img{
+    height: 250px;
+    width: 270px;
+    background-color: rgb(42, 38, 38);
+    border-radius: 50%;
+    margin-top: -15vh;
+    position: relative;
+    border: 2px solid gray;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about p{
+   padding-left: 20%;
+   padding-right: 20%;
+   font-size: medium;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#in-para-text{
+    color: blue;
 }
