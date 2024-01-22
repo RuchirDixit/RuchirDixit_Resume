@@ -82,3 +82,113 @@ header {
 #in-para-text{
     color: blue;
 }
+
+
+/** Sections **/
+section {
+    width: 100%;
+    /*height: 75vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/** give background color to alternate sections**/
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.skills-header{
+    width: auto;
+    padding: 20px 20px 10px;
+    font-weight: 400;
+}
+
+.skills-header span {
+    font-size: 35px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+    margin-bottom: 75px;
+    
+}
+.skills-display{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.skills-progress{
+    width: 7rem;
+    height: 1.5rem;
+    /* height: 5rem; */
+    background-color: lightgrey;
+    border-radius: 1rem;
+    /* border: 2px solid black; */
+}
+
+.skills-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name span{
+    font-size: 0.9rem;
+    color: white;
+    /* margin-left: 5px; */
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/** Colors **/
+.mb-light-blue{
+    background-color: blueviolet;
+}
+
+.mb-orange{
+    background-color: orange;
+}
+
+.mb-yellow{
+    background-color: burlywood;
+}
+
+.mb-light-coral{
+    background-color: coral;
+}
+
+.mb-light-green{
+    background-color: green;
+}
+
+/** Percentage CSS classes**/
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+.seventy-percent{
+    width: 70%;
+    height: inherit;
+}
+
+.seventy-five-percent{
+    width: 75%;
+    height: inherit;
+}
+
+.sixty-percent{
+    width: 60%;
+    height: inherit;
+}
+
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+}
